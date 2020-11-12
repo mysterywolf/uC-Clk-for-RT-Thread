@@ -1,4 +1,4 @@
-# uC/Clk
+# uC/Clk for RT-Thread
 
 µC/Clk is a module that implements a Year 2000 compliant clock/calendar module. The clock/calendar module offers the following features:
 
