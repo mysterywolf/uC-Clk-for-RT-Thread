@@ -36,6 +36,10 @@
 #ifndef CLK_CFG_H
 #define CLK_CFG_H
 
+#include <rtconfig.h>
+
+#define  CLK_OS_CFG_TASK_PRIO                    10
+#define  CLK_OS_CFG_TASK_STK_SIZE                256
 
 /*
 *********************************************************************************************************
