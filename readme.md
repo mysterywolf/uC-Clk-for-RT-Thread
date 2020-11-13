@@ -14,4 +14,14 @@
 
 * Allows your application to get and set the clock date/time using any of the supported timestamps or a CLK_DATE_TIME structure and allows conversion to/from all supported timestamps and the CLK_DATE_TIME structure.
 
-## For the complete documentation, visit https://doc.micrium.com/display/ucos/
+
+
+## 依赖项
+
+本软件包会自动开启以下软件包作为依赖项，用户无需介入：
+
+- [RT-Thread的uCOS-III兼容层软件包](https://github.com/mysterywolf/RT-Thread-wrapper-of-uCOS-III)
+
+
+
+### For the complete documentation, visit https://doc.micrium.com/display/ucos/
