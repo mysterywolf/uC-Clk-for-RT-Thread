@@ -1,5 +1,7 @@
 # uC/Clk for RT-Thread
 
+https://github.com/SiliconLabs/uC-Clk
+
 µC/Clk is a module that implements a Year 2000 compliant clock/calendar module. The clock/calendar module offers the following features:
 
 * Maintains time in seconds starting from 2000/01/01 (January 1st, 2000) at 00:00:00 UTC until 2134/12/31 (December 31st, 2134) 23:59:59 UTC; but supports conversions to/from two other timestamps:
