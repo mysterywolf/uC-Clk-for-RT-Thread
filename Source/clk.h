@@ -192,7 +192,7 @@
 #include  <lib_def.h>                                           /* Standard        Defines (see Note #3a)               */
 #include  <lib_str.h>                                           /* Standard String Library (see Note #3a)               */
 
-#include  <clk_cfg.h>                                           /* Clk Configuration File  (see Note #1a)               */
+#include  "clk_cfg.h"                                           /* Clk Configuration File  (see Note #1a)               */
 
 
 /*

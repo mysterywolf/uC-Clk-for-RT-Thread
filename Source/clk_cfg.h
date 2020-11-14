@@ -141,7 +141,7 @@
 
 #define  CLK_TRACE_LEVEL                        TRACE_LEVEL_OFF
 
-#define  CLK_TRACE                              printf
+#define  CLK_TRACE                              rt_kprintf
 
 
 /*
