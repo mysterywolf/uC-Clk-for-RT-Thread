@@ -21,7 +21,7 @@
 *
 *                                          Micrium uC/OS-III
 *
-* Filename : clk.c
+* Filename : clk_os_iii.c
 * Version  : V3.10.00
 *********************************************************************************************************
 * Note(s)  : (1) Assumes uC/OS-III V3.01.0 (or more recent version) is included in the project build.
