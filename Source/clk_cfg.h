@@ -45,8 +45,18 @@
 *********************************************************************************************************
 */
 
+#ifdef PKG_USING_UC_CLK_TASK_PRIO
 #define  CLK_OS_CFG_TASK_PRIO                   PKG_USING_UC_CLK_TASK_PRIO
+#else
+#define  CLK_OS_CFG_TASK_PRIO                   10
+#endif
+
+#ifdef PKG_USING_UC_CLK_TASK_STK_SIZE
 #define  CLK_OS_CFG_TASK_STK_SIZE               PKG_USING_UC_CLK_TASK_STK_SIZE
+#else
+#define  CLK_OS_CFG_TASK_STK_SIZE               128
+#endif
+
 
 /*
 *********************************************************************************************************
