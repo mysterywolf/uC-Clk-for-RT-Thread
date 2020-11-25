@@ -38,8 +38,15 @@
 
 #include <rtconfig.h>
 
-#define  CLK_OS_CFG_TASK_PRIO                    10
-#define  CLK_OS_CFG_TASK_STK_SIZE                256
+/*
+*********************************************************************************************************
+*                                           OS Configuration
+*
+*********************************************************************************************************
+*/
+
+#define  CLK_OS_CFG_TASK_PRIO                   PKG_USING_UC_CLK_TASK_PRIO
+#define  CLK_OS_CFG_TASK_STK_SIZE               PKG_USING_UC_CLK_TASK_STK_SIZE
 
 /*
 *********************************************************************************************************
