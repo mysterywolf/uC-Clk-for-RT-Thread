@@ -22,6 +22,14 @@ https://github.com/SiliconLabs/uC-Clk
 
 
 
+## Env配置
+
+本软件包可以选择是否在启动时，由RT-Thread自动完成初始化 (INIT_DEVICE_EXPORT)
+
+
+
+
+
 ## 依赖项
 
 本软件包会自动开启以下软件包作为依赖项，用户无需介入：
