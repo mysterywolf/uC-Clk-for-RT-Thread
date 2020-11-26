@@ -1,15 +1,11 @@
-import os
+Import('rtconfig')
 from building import *
 
-# get current dir path
 cwd = GetCurrentDir()
+src	= Glob('*.c')
 
-# traversal subscript
-objs = []
-list = os.listdir(cwd)
-for d in list:
-    path = os.path.join(cwd, d)
-    if os.path.isfile(os.path.join(path, 'SConscript')):
-        objs = objs + SConscript(os.path.join(d, 'SConscript'))
+CPPPATH = [cwd]
 
-Return('objs')
+group = DefineGroup('uC-Clk', src, depend = ['PKG_USING_UC_CLK'], CPPPATH = CPPPATH)
+
+Return('group')
