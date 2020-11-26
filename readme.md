@@ -24,9 +24,9 @@ https://github.com/SiliconLabs/uC-Clk
 
 ## 依赖项
 
-本软件包会自动开启以下软件包作为依赖项，并且**兼容层会自动初始化本软件包**，用户无需介入：
+本软件包会自动开启以下软件包作为依赖项，用户无需介入：
 
-- [RT-Thread的uCOS-III兼容层软件包](https://github.com/mysterywolf/RT-Thread-wrapper-of-uCOS-III) (系统会自动初始化兼容层)
+- [RT-Thread的uCOS-III兼容层软件包](https://github.com/mysterywolf/RT-Thread-wrapper-of-uCOS-III) (系统会自动初始化兼容层,并且**兼容层会自动初始化本软件包**)
 
 
 
