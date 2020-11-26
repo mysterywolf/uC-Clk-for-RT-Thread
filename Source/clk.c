@@ -316,6 +316,15 @@ void  Clk_Init (CLK_ERR  *p_err)
    *p_err = CLK_ERR_NONE;
 }
 
+#ifdef PKG_USING_UC_CLK_AUTOINIT
+static int rt_auto_init(void)
+{
+    CLK_ERR clk_err;
+    Clk_Init(&clk_err);
+    return 0;
+}
+INIT_DEVICE_EXPORT(rt_auto_init);
+#endif
 
 /*
 *********************************************************************************************************
