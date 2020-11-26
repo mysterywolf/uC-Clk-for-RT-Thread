@@ -1,7 +1,5 @@
 # uC/Clk for RT-Thread
 
-https://github.com/SiliconLabs/uC-Clk
-
 µC/Clk is a module that implements a Year 2000 compliant clock/calendar module. The clock/calendar module offers the following features:
 
 * Maintains time in seconds starting from 2000/01/01 (January 1st, 2000) at 00:00:00 UTC until 2134/12/31 (December 31st, 2134) 23:59:59 UTC; but supports conversions to/from two other timestamps:
@@ -16,6 +14,8 @@ https://github.com/SiliconLabs/uC-Clk
 
 * Allows your application to get and set the clock date/time using any of the supported timestamps or a CLK_DATE_TIME structure and allows conversion to/from all supported timestamps and the CLK_DATE_TIME structure.
 
+官方原仓库 https://github.com/SiliconLabs/uC-Clk
+
 
 
 ## 配置文件 `clk_cfg.h`
@@ -26,7 +26,14 @@ https://github.com/SiliconLabs/uC-Clk
 
 本软件包可以选择是否在启动时，由RT-Thread自动完成初始化 (INIT_DEVICE_EXPORT)
 
-
+```
+RT-Thread online packages
+    system packages --->
+        [*] Micrium: Micrium software products porting for RT-Thread --->
+            [*] uC_Clk: uC/Clk for RT-Thread --->
+                [*]   Enable uCOS-III wrapper automatically init
+                Version (latest)  --->
+```
 
 
 
@@ -38,4 +45,16 @@ https://github.com/SiliconLabs/uC-Clk
 
 
 
-#### For the complete documentation, visit https://doc.micrium.com/pages/viewpage.action?pageId=10753188
+## 参考文档
+
+|                             文档                             | 说明 |
+| :----------------------------------------------------------: | :--: |
+| [uC/Clk官方文档](https://doc.micrium.com/pages/viewpage.action?pageId=10753188) | 必读 |
+
+
+
+## 维护 
+
+> Meco Man
+>
+> jiantingman@foxmail.com
