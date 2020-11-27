@@ -1,5 +1,7 @@
 # uC/Clk for RT-Thread
 
+### µC/Clk Time/Calendar Management
+
 µC/Clk is a module that implements a Year 2000 compliant clock/calendar module. The clock/calendar module offers the following features:
 
 * Maintains time in seconds starting from 2000/01/01 (January 1st, 2000) at 00:00:00 UTC until 2134/12/31 (December 31st, 2134) 23:59:59 UTC; but supports conversions to/from two other timestamps:
@@ -30,8 +32,10 @@
 RT-Thread online packages
     system packages --->
         [*] Micrium: Micrium software products porting for RT-Thread --->
-            [*] uC_Clk: uC/Clk for RT-Thread --->
-                [*]   Enable uCOS-III wrapper automatically init
+            [*] uC/Clk for RT-Thread --->
+                (10)  The priority level value of uC/Clk task
+                (80)  The stack size of UC/Clk task (sizeof(CPU_STK))
+                [*]   Enable uC/Clk automatical initialization
                 Version (latest)  --->
 ```
 
