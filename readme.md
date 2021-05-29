@@ -1,4 +1,4 @@
-# uC/Clk for RT-Thread
+# μC/Clk for RT-Thread
 
 ### µC/Clk Time/Calendar Management
 
@@ -15,9 +15,6 @@
 * Allows your application to get the current date and time into a structured data type named CLK_DATE_TIME containing Year, Month, Day, Day-of-Year, Day-of-Week, Hour, Minute, Second, and Timezone Offset. Can convert timestamps to dates/times or vice versa.
 
 * Allows your application to get and set the clock date/time using any of the supported timestamps or a CLK_DATE_TIME structure and allows conversion to/from all supported timestamps and the CLK_DATE_TIME structure.
-
-官方原仓库 https://github.com/SiliconLabs/uC-Clk
-
 
 
 ## 配置文件 `clk_cfg.h`
@@ -59,6 +56,6 @@ RT-Thread online packages
 
 ## 维护 
 
-> Meco Man
->
-> jiantingman@foxmail.com
+Meco Man
+
+jiantingman@foxmail.com
